@@ -1,0 +1,11 @@
+#Generate 10 random integers between 1 and 100
+
+import random
+
+numbers = []
+
+for i in range(10):
+    num = random.randint(1, 100)
+    numbers.append(num)
+
+print("Random numbers:", numbers)
